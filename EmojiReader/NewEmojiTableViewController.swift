@@ -19,6 +19,7 @@ class NewEmojiTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        updateUI()
         updateSaveButtonState()
         
         // Uncomment the following line to preserve selection between presentations
